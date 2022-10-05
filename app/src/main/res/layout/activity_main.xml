@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/bacground2">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -18,10 +18,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="WELCOM TO"
+        android:text="WELCOME TO"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
-        android:textSize="20dp"/>
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#FDF8F8"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -29,15 +31,19 @@
         android:text="TEACHER PROFIL APP"
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:textSize="20dp"/>
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BU ETIKA WISNU WANDANI"
+        android:text="ETIKA WISNU WANDANI S.Pd."
         android:layout_marginTop="10dp"
         android:layout_gravity="center"
-        android:textSize="20dp"/>
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#F3EEEE"/>
 
     <Button
         android:id="@+id/button"
